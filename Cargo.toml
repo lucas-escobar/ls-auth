@@ -1,0 +1,10 @@
+[package]
+name = "authentication"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.5.1"
+bcrypt = "0.15.0"
+rusqlite = "0.31.0"
+serde = {version = "1.0.197", features = ["derive"]}
